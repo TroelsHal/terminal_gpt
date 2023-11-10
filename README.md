@@ -2,6 +2,8 @@
 
 Terminal GPT is a Rust-based command-line interface application that interacts with the OpenAI API. It allows users to send messages and receive responses from an AI model directly in the terminal.
 
+![Screenshot of Application](/images/terminal_GPT_screenshot.png)
+
 ## Getting Started
 
 ### Prerequisites
@@ -23,7 +25,7 @@ Replace "your_api_key_here" with your actual OpenAI API key.
 Navigate to the project directory and run:
 
 ```bash
-cargo test
+cargo run
 ```
 
 ## Usage
