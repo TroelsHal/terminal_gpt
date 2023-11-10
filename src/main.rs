@@ -66,7 +66,7 @@ async fn main() {
     let mut user_input: String = String::new();
 
     // Instruction for users on how to exit the application.
-    println!("Let's go. (Quit by typing exit.)");
+    println!("\nLet's go. (Quit by typing exit.)");
 
     // Main loop for reading and processing user input.
     while let Some(trimmed_user_input) = read_user_input(&mut user_input, &mut stdout).await {
